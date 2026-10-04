@@ -1,0 +1,47 @@
+# AWS credentials and secrets — NEVER commit these
+.aws/
+*.pem
+*.key
+*credentials*
+*secret*
+*.env
+.env.*
+
+# Raw API data dumps (may contain account identifiers)
+raw_data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+nohup.out
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Temp
+*.tmp
+*.bak
